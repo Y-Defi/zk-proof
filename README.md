@@ -27,18 +27,29 @@ The current MVP focuses on the **Proof of Account Control** circuit, which:
 - **Data Preparation**: Node.js script for input preparation and proof generation
 
 ## Project Structure
-/
+/ 
 ├── Nargo.toml             # Noir package configuration
+
 ├── README.md              # This documentation
+
 ├── scripts/
+
 │   └── prove_account.ts   # Node.js script for proof generation
+
 └── src/
+
 ├── main.nr            # Main circuit (Account Control)
+
 ├── utils.nr           # Utility functions (HMAC, byte operations)
+
 └── lib/               # Additional proof circuits (scaffolded)
+
 ├── fund_trace.nr      # Fund traceability proof (scaffold)
+
 ├── risk_neutrality.nr # Risk neutrality proof (scaffold)
+
 └── return_rate.nr     # Return rate proof (scaffold)
+
 
 
 ## Getting Started
